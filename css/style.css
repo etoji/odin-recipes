@@ -9,5 +9,11 @@ h1 {
 }
 
 .nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 8px;
+}
+
+.recipe-image {
+    width: 360px;
+    height: auto;
 }
