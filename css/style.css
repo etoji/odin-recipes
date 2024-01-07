@@ -1,0 +1,13 @@
+body {
+    background-color: #F5F8DE;
+}
+
+h1 {
+    color: #2A0C4E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+}
+
+.nav {
+    padding: 8px;
+}
