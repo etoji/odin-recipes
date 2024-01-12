@@ -1,44 +1,36 @@
+/* * {
+    border: 1px solid black;
+} */
+
 body {
     background-color: #F5F8DE;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
+.site-title {
     color: #9E2B25;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 36px;
+    width: fit-content;
+    margin: 24px auto 48px;
 }
 
-h2 {
-    color: #2A0C4E;
-}
-
-h3 {
-    color: #51355A;
-}
-
-p {
-    width: 800px;
-    font-size: 21px;
-    margin-bottom: 36px;
-}
-
-ul {
-    margin-bottom: 36px;
-}
-
-ol {
-    width: 600px;
-}
-
-li {
-    padding-top: 6px;
-    padding-bottom: 6px;
+.navigation {
+    margin: auto;
+    width: fit-content;
+    padding-left: 0px;
 }
 
 .nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 8px;
+    display: inline;
+    padding: 24px;
+    background-color: #DC9E82;
+    border-radius: 24px;
+}
+
+.nav-link {
+    display: inline-flex;
 }
 
 .recipe-image {
