@@ -30,7 +30,8 @@ body {
 }
 
 .nav-link {
-    display: inline-flex;
+    text-decoration: none;
+    padding: 12px;
 }
 
 .recipe-image {
