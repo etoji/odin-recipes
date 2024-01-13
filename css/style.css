@@ -16,6 +16,11 @@ body {
     margin: 76px auto 76px;
 }
 
+h2,
+h3 {
+    color: #DC9E82;
+}
+
 .navigation {
     margin: auto;
     width: fit-content;
@@ -38,7 +43,7 @@ body {
 .hero {
     background-color: #151E3F;
     padding: 48px;
-    width: fit-content;
+    width: 900px;
     margin: 24px auto;
     border-radius: 24px;
 }
@@ -58,8 +63,40 @@ body {
     /* margin-left: 64px; */
     width: 440px;
     margin-left: 48px;
+    vertical-align: 600%;
 }
 
 .hero-p {
     display: inline;
+}
+
+.recipe-block {
+    width: 996px;
+    margin: 48px auto;
+}
+
+.ingredients {
+    display: inline-block;
+    background-color: #151E3F;
+    padding: 24px;
+    width: 436px;
+    margin-right: 19px;
+    border-radius: 24px;
+    vertical-align: top; 
+}
+
+.steps {
+    display: inline-block;
+    background-color: #151E3F;
+    padding: 24px;
+    width: 436px;
+    border-radius: 24px;
+}
+
+.ingredient-list li {
+    padding-bottom: 12px;
+}
+
+.step-list li {
+    padding-bottom: 12px;
 }
