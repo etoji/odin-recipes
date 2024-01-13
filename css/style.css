@@ -1,5 +1,5 @@
 /* * {
-    border: 1px solid black;
+    border: 1px solid white;
 } */
 
 body {
@@ -35,8 +35,31 @@ body {
     padding: 12px;
 }
 
+.hero {
+    background-color: #151E3F;
+    padding: 48px;
+    width: fit-content;
+    margin: 24px auto;
+    border-radius: 24px;
+}
+
+.hero-img {
+    display: inline-block;
+}
+
 .recipe-image {
     width: 360px;
     height: auto;
-    margin-bottom: 36px;
+    border-radius: 12px;
+}
+
+.hero-text {
+    display: inline-block;
+    /* margin-left: 64px; */
+    width: 440px;
+    margin-left: 48px;
+}
+
+.hero-p {
+    display: inline;
 }
