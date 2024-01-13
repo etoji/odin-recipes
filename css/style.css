@@ -3,16 +3,17 @@
 } */
 
 body {
-    background-color: #F5F8DE;
+    color: #F2F3D9;
+    background-color: #030027;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .site-title {
-    color: #9E2B25;
+    color: #C16E70;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 36px;
     width: fit-content;
-    margin: 24px auto 48px;
+    margin: 76px auto 76px;
 }
 
 .navigation {
