@@ -64,11 +64,11 @@ h3 {
     /* margin-left: 64px; */
     width: 480px;
     margin-left: 48px;
-    vertical-align: 600%;
 }
 
 .hero-p {
     display: inline;
+    line-height: 1.5;
 }
 
 .recipe-block {
@@ -100,4 +100,5 @@ h3 {
 
 .step-list li {
     padding-bottom: 12px;
+    line-height: 1.5;
 }
